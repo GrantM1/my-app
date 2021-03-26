@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: whitesmoke;
+}
+
+.todo-list {
+  background-color: white;
+  margin: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  padding: 30px;
+}
+
+
+.todo-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px 20px 0;
+  width: 70%;
+  border-bottom: 1px solid grey;
+  font-weight: 100;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+input[type=checkbox] {
+  margin-right: 10px;
+}
+
+div {
+  border-bottom: 5px solid black;
+}
+
+header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background-color: #6441A5;
+}
+
+header > img {
+  height: 80%;
+  margin-left: 10%;
+}
+header > h2 {
+position: absolute;
+width: 80%;
+text-align: center;
+left: 50%;
+transform: translateX(-50%);
+margin: 15px 0;
+padding: 0 5px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 2em;
+letter-spacing: 1px;
+
+}
+
+header > p {
+  font-family: VT323,monospace;
+  color: whitesmoke;
+  font-size: 50px;
+  margin-left: 60px;
+}
+
+.meme {
+  position: relative;
+  width: 90%;
+  margin: auto;
+}
+.meme > .top {
+  top:0 ;
+}
+.meme > .bottom {
+  bottom:0 ;
+}
+
+.meme > img {
+  width: 100%;
+}
+
+.meme-form  {
+  width: 90%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.meme-form > input {
+  width: 45%;
+  height: 40px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif ,monospace;
+  text-align: center;
+
+}
+.meme-form > button {
+border: none;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ,monospace;
+font-size: 25px;
+letter-spacing: 1.5px;
+color: white;
+background-color: #6441A5;
+}
